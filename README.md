@@ -1,4 +1,4 @@
-# ecommerce-admin-nextjs
+# Allbird-Admin
 
 > The demo website no longer works due to the PlanetScale retiring the free plan.
 
@@ -6,7 +6,7 @@ Start Date: 26<sup>th</sup> July, 2023.
 
 # Description
 
-The E-Commerce Admin Dashboard with Stripe Integration is a robust web application designed to streamline and enhance the management of an e-commerce website. Developed using cutting-edge technologies like Next JS, TypeScript, Tailwind CSS, Shadcn UI, Planet Scale, Prisma, zustand, clerk auth, Cloudinary, and Stripe, this comprehensive dashboard provides administrators with a powerful toolkit to oversee and optimize various aspects of the online store.
+The Allbird Admin with Stripe Integration is a robust web application designed to streamline and enhance the management of an Allbird website. Developed using cutting-edge technologies like Next JS, TypeScript, Tailwind CSS, Shadcn UI, Planet Scale, Prisma, zustand, clerk auth, Cloudinary, and Stripe, this comprehensive dashboard provides administrators with a powerful toolkit to oversee and optimize various aspects of the online store.
 
 # Key Features
 
@@ -16,8 +16,8 @@ The E-Commerce Admin Dashboard with Stripe Integration is a robust web applicati
 - To enable smooth communication between the front-end web application and the back-end, the dashboard incorporates API routes. This ensures that product information is seamlessly fetched and displayed on the customer-facing website.
 - The admin dashboard utilizes Clerk auth for secure authentication, ensuring that only authorized personnel can access and manage sensitive information.
 - With Planet Scale and Prisma integration, the application benefits from a robust and scalable database, capable of handling growing product inventories and increasing website traffic.
-- The heart of any e-commerce website lies in its product management capabilities. The admin dashboard empowers administrators to add new products, update existing ones, archive out-of-stock products, mark products as featured products, and remove products that are no longer available. They can set product details such as name, category, price, images, and other product-specific attributes.
-- Efficient order management is crucial for any e-commerce website. The dashboard provides comprehensive tools to view, process, and manage incoming orders.
+- The heart of any Allbird website lies in its product management capabilities. The admin dashboard empowers administrators to add new products, update existing ones, archive out-of-stock products, mark products as featured products, and remove products that are no longer available. They can set product details such as name, category, price, images, and other product-specific attributes.
+- Efficient order management is crucial for any Allbird website. The dashboard provides comprehensive tools to view, process, and manage incoming orders.
 - Seamlessly integrate Stripe as the payment gateway, allowing customers to make secure and convenient online payments. Admins can view transaction history and ensure a seamless checkout experience for shoppers.
 
 # Testing the Project
@@ -44,13 +44,7 @@ NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=
 STRIPE_API_KEY=
 FRONTEND_STORE_URL=
 STRIPE_WEBHOOK_SECRET=
-```
-
-Follow the steps from the official documentation for [Clerk](https://clerk.com/docs/quickstarts/nextjs), [Planet Scale](https://planetscale.com/docs/tutorials/connect-nextjs-app), [Cloudinary](https://cloudinary.com/documentation/how_to_integrate_cloudinary) and [Stripe](https://stripe.com/docs/development) to get the values for the environment variable.
-After completing the above steps, run `npm run dev` to test the project.
 
 ```bash
 npm run dev
 ```
-
-If you do not want to go through all the troubles, you can always test the [demo website](https://ecommerce-admin-nextjs-mu.vercel.app/) for this project.
